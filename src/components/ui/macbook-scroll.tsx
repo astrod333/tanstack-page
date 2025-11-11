@@ -136,7 +136,7 @@ export const Lid = ({
           className="absolute inset-0 flex items-center justify-center rounded-lg bg-[#010101]"
         >
           <img
-            src="/src/assets/CS_Triangle_5.png"
+            src="/CS_Triangle_5.png"
             alt="Logo"
             className="h-8 w-8 object-contain grayscale contrast-125 brightness-110"
           />
@@ -155,7 +155,7 @@ export const Lid = ({
       >
         <div className="absolute inset-0 rounded-lg bg-[#272729]" />
         <img
-          src="/src/assets/03_SERVICES.jpg"
+          src="/03_SERVICES.jpg"
           alt="astro"
           className="absolute inset-0 h-full w-full rounded-lg object-cover object-left-top"
         />

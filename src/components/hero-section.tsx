@@ -29,7 +29,7 @@ const transitionVariants = {
 const Badge = ({ className }: { className?: string }) => {
   return (
     <img
-      src="/src/assets/untitled.png"
+      src="/untitled.png"
       alt="Badge"
       className={`h-20 w-20 object-contain ${className || ''}`}
     />
