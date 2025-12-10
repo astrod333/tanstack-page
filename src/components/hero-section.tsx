@@ -27,13 +27,13 @@ const transitionVariants = {
 };
 
 const Badge = ({ className }: { className?: string }) => {
-  return (
-    <img
-      src="/untitled.png"
-      alt="Badge"
-      className={`h-20 w-20 object-contain ${className || ''}`}
-    />
-  );
+	return (
+		<img
+			src="/untitled.png"
+			alt="Badge"
+			className={`h-20 w-20 object-contain ${className || ""}`}
+		/>
+	);
 };
 
 export default function HeroSection() {
@@ -133,8 +133,8 @@ export default function HeroSection() {
 									as="p"
 									className="mx-auto mt-8 max-w-2xl text-balance text-lg"
 								>
-									Highly customizable tools for modern web developers that
-									give you the power to build faster and smarter.
+									Highly customizable tools for modern web developers that give
+									you the power to build faster and smarter.
 								</TextEffect>
 
 								<AnimatedGroup
@@ -194,9 +194,13 @@ export default function HeroSection() {
 							}}
 						>
 							<div className="mask-b-from-55% relative overflow-hidden px-2 sm:mr-0 md:mt-0">
-									<MacbookScroll
+								<MacbookScroll
 									badge={
-										<a href="https://astrop.ing" target="_blank" rel="noopener noreferrer">
+										<a
+											href="https://astrop.ing"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
 											<Badge className="h-10 w-10 -rotate-12 transform" />
 										</a>
 									}

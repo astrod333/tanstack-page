@@ -41,8 +41,8 @@ export default function Pricing() {
 									"Basic Analytics Dashboard",
 									"5GB Cloud Storage",
 									"Email and Chat Support",
-								].map((item, index) => (
-									<li key={index} className="flex items-center gap-2">
+								].map((item, _index) => (
+									<li key={item} className="flex items-center gap-2">
 										<Check className="size-3" />
 										{item}
 									</li>
@@ -52,7 +52,7 @@ export default function Pricing() {
 
 						<CardFooter className="mt-auto ">
 							<Button asChild variant="outline" className="w-full">
-								<Link to="">Get Started</Link>
+								<Link to="/login">Get Started</Link>
 							</Button>
 						</CardFooter>
 					</Card>
@@ -87,8 +87,8 @@ export default function Pricing() {
 										"1 Custom Report Per Month",
 										"Monthly Product Updates",
 										"Standard Security Features",
-									].map((item, index) => (
-										<li key={index} className="flex items-center gap-2">
+									].map((item, _index) => (
+										<li key={item} className="flex items-center gap-2">
 											<Check className="size-3" />
 											{item}
 										</li>
@@ -98,7 +98,7 @@ export default function Pricing() {
 
 							<CardFooter>
 								<Button asChild className="w-full">
-									<Link to="">Get Started</Link>
+									<Link to="/login">Get Started</Link>
 								</Button>
 							</CardFooter>
 						</div>
@@ -121,8 +121,8 @@ export default function Pricing() {
 									"Everything in Pro Plan",
 									"5GB Cloud Storage",
 									"Email and Chat Support",
-								].map((item, index) => (
-									<li key={index} className="flex items-center gap-2">
+								].map((item, _index) => (
+									<li key={item} className="flex items-center gap-2">
 										<Check className="size-3" />
 										{item}
 									</li>
@@ -132,7 +132,7 @@ export default function Pricing() {
 
 						<CardFooter className="mt-auto">
 							<Button asChild variant="outline" className="w-full">
-								<Link to="">Get Started</Link>
+								<Link to="/login">Get Started</Link>
 							</Button>
 						</CardFooter>
 					</Card>
